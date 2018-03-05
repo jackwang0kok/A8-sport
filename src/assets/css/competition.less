@@ -1,0 +1,218 @@
+article.competition {
+  .title {
+    background-color: #F2F2F2;
+    height: 56px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 56px;
+    span:nth-child(1) {
+      float: left;
+      padding-left: 28px;
+      font-weight: 900;
+      color: #9C9C9C;
+    }
+    span:nth-child(2) {
+      float: right;
+      padding-right: 25px;
+    }
+  }
+  .head {
+    width: 100%;
+    .headTop {
+      width: 100%;
+      height: 100px;
+      border-bottom: 4px solid #F3F3F3;
+      .top-left {
+        height: 100%;
+        width: 25%;
+        float: left;
+        img {
+          margin-top: 20px;
+          margin-left: 40px;
+        }
+      }
+      .top-content {
+        float: left;
+        width: 65%;
+        h3 {
+          font-size: 28px;
+          color: #19201E;
+          margin: 15px 0 5px;
+        }
+        p {
+          font-size: 25px;
+          color: #8A8C8B;
+          font-weight: bold;
+        }
+      }
+      .top-right {
+        float: left;
+        width: 10%;
+        height: 100%;
+        img {
+          margin-top: 35px;
+        }
+      }
+    }
+    .bd-border{
+      border-right: 4px solid #EEEEEE;
+    }
+    .headBody {
+      width: 100%;
+      height: 182px;
+      .bd {
+        width: 50%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        div:nth-child(1) {
+          float: left;
+          width: 50%;
+          height: 100%;
+          img {
+            margin-top: 23px;
+            margin-left: 28px;
+          }
+        }
+        div:nth-child(2) {
+          float: left;
+          width: 50%;
+          height: 100%;
+          position: relative;
+          h1 {
+            text-align: center;
+            font-size: 34px;
+            margin-top: 18px;
+          }
+          span {
+            position: absolute;
+            bottom: 20px;
+            right: 0px;
+            color: #5C5F5E;
+            font-size: 28px;
+            float: right;
+            padding-right: 30px;
+          }
+        }
+      }
+
+      /* NBA 一栏的样式 */
+      .bd1 {
+        height: 100%;
+        box-sizing: border-box;
+        width: 50%;
+        float: left;
+        & > div:nth-child(1) {
+          box-sizing: border-box;
+          height: 35%;
+          width: 100%;
+          padding: 10px 20px 10px 28px;
+          img {
+            position: relative;
+            top: 8px;
+          }
+          b {
+            font-size: 30px;
+            margin-top: -5px;
+          }
+          span {
+            float: right;
+            font-size: 32px;
+          }
+        }
+        & > div:nth-child(2) {
+          box-sizing: border-box;
+          height: 35%;
+          width: 100%;
+          padding: 10px 20px 10px 28px;
+          img {
+            position: relative;
+            top: 8px;
+          }
+          b {
+            font-size: 30px;
+            margin-top: -5px;
+          }
+          span {
+            float: right;
+            font-size: 32px;
+            color: #878988;
+          }
+        }
+        & > div:nth-child(3) {
+          box-sizing: border-box;
+          padding: 10px 20px 10px 28px;
+          height: 30%;
+          width: 100%;
+          & > div:nth-child(1) {
+            float: left;
+            span {
+              font-size: 25px;
+              font-weight: bold;
+              color: #1C201F;
+              position: relative;
+              top: -3px;
+            }
+          }
+          & > div:nth-child(2) {
+            float: right;
+            span {
+              font-size: 25px;
+              font-weight: bold;
+              color: #1C201F;
+              position: relative;
+              top: -3px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+  section.list {
+    .content {
+      height: 112px;
+      & > div:nth-child(1) {
+        width: 25%;
+        height: 100%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        img{
+          width:45%;
+          margin-left: 25px;
+        }
+      }
+      & > div:nth-child(2) {
+        position: relative;
+        left: -60px;
+        width: 65%;
+        height: 100%;
+        float: left;
+        h3{
+          color: #1C201F;
+          font-weight: 900;
+          font-size: 33px;
+          padding: 8px 0 5px;
+        }
+        p{
+          color: #ADADAD;
+          font-weight: 900;
+          font-size: 24px;
+          padding: 5px 0;
+        }
+      }
+      & > div:nth-child(3) {
+        width: 10%;
+        height: 100%;
+        float: left;
+        img{
+          margin-top: 40px;
+        }
+      }
+    }
+
+  }
+}

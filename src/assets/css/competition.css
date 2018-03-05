@@ -1,0 +1,211 @@
+article.competition .title {
+  background-color: #F2F2F2;
+  height: 56px;
+  width: 100%;
+  font-size: 30px;
+  line-height: 56px;
+}
+article.competition .title span:nth-child(1) {
+  float: left;
+  padding-left: 28px;
+  font-weight: 900;
+  color: #9C9C9C;
+}
+article.competition .title span:nth-child(2) {
+  float: right;
+  padding-right: 25px;
+}
+article.competition .head {
+  width: 100%;
+}
+article.competition .head .headTop {
+  width: 100%;
+  height: 100px;
+  border-bottom: 4px solid #F3F3F3;
+}
+article.competition .head .headTop .top-left {
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+article.competition .head .headTop .top-left img {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+article.competition .head .headTop .top-content {
+  float: left;
+  width: 65%;
+}
+article.competition .head .headTop .top-content h3 {
+  font-size: 28px;
+  color: #19201E;
+  margin: 15px 0 5px;
+}
+article.competition .head .headTop .top-content p {
+  font-size: 25px;
+  color: #8A8C8B;
+  font-weight: bold;
+}
+article.competition .head .headTop .top-right {
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+article.competition .head .headTop .top-right img {
+  margin-top: 35px;
+}
+article.competition .head .bd-border {
+  border-right: 4px solid #EEEEEE;
+}
+article.competition .head .headBody {
+  width: 100%;
+  height: 182px;
+  /* NBA 一栏的样式 */
+}
+article.competition .head .headBody .bd {
+  width: 50%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+article.competition .head .headBody .bd div:nth-child(1) {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+article.competition .head .headBody .bd div:nth-child(1) img {
+  margin-top: 23px;
+  margin-left: 28px;
+}
+article.competition .head .headBody .bd div:nth-child(2) {
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+article.competition .head .headBody .bd div:nth-child(2) h1 {
+  text-align: center;
+  font-size: 34px;
+  margin-top: 18px;
+}
+article.competition .head .headBody .bd div:nth-child(2) span {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  color: #5C5F5E;
+  font-size: 28px;
+  float: right;
+  padding-right: 30px;
+}
+article.competition .head .headBody .bd1 {
+  height: 100%;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+article.competition .head .headBody .bd1 > div:nth-child(1) {
+  box-sizing: border-box;
+  height: 35%;
+  width: 100%;
+  padding: 10px 20px 10px 28px;
+}
+article.competition .head .headBody .bd1 > div:nth-child(1) img {
+  position: relative;
+  top: 8px;
+}
+article.competition .head .headBody .bd1 > div:nth-child(1) b {
+  font-size: 30px;
+  margin-top: -5px;
+}
+article.competition .head .headBody .bd1 > div:nth-child(1) span {
+  float: right;
+  font-size: 32px;
+}
+article.competition .head .headBody .bd1 > div:nth-child(2) {
+  box-sizing: border-box;
+  height: 35%;
+  width: 100%;
+  padding: 10px 20px 10px 28px;
+}
+article.competition .head .headBody .bd1 > div:nth-child(2) img {
+  position: relative;
+  top: 8px;
+}
+article.competition .head .headBody .bd1 > div:nth-child(2) b {
+  font-size: 30px;
+  margin-top: -5px;
+}
+article.competition .head .headBody .bd1 > div:nth-child(2) span {
+  float: right;
+  font-size: 32px;
+  color: #878988;
+}
+article.competition .head .headBody .bd1 > div:nth-child(3) {
+  box-sizing: border-box;
+  padding: 10px 20px 10px 28px;
+  height: 30%;
+  width: 100%;
+}
+article.competition .head .headBody .bd1 > div:nth-child(3) > div:nth-child(1) {
+  float: left;
+}
+article.competition .head .headBody .bd1 > div:nth-child(3) > div:nth-child(1) span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #1C201F;
+  position: relative;
+  top: -3px;
+}
+article.competition .head .headBody .bd1 > div:nth-child(3) > div:nth-child(2) {
+  float: right;
+}
+article.competition .head .headBody .bd1 > div:nth-child(3) > div:nth-child(2) span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #1C201F;
+  position: relative;
+  top: -3px;
+}
+article.competition section.list .content {
+  height: 112px;
+}
+article.competition section.list .content > div:nth-child(1) {
+  width: 25%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+article.competition section.list .content > div:nth-child(1) img {
+  width: 45%;
+  margin-left: 25px;
+}
+article.competition section.list .content > div:nth-child(2) {
+  position: relative;
+  left: -60px;
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+article.competition section.list .content > div:nth-child(2) h3 {
+  color: #1C201F;
+  font-weight: 900;
+  font-size: 33px;
+  padding: 8px 0 5px;
+}
+article.competition section.list .content > div:nth-child(2) p {
+  color: #ADADAD;
+  font-weight: 900;
+  font-size: 24px;
+  padding: 5px 0;
+}
+article.competition section.list .content > div:nth-child(3) {
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+article.competition section.list .content > div:nth-child(3) img {
+  margin-top: 40px;
+}
